@@ -33,21 +33,21 @@ MODELS : Dict[str, ModelValue] =\
 	'gfpgan_1.2':
 	{
 		'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models/gfpgan_1.2.onnx',
-		'path': resolve_relative_path('../.assets/models/gfpgan_1.2.onnx'),
+		'path': resolve_relative_path('../.assets/models/GFPGANv1.2.onnx'),
 		'template': 'ffhq',
 		'size': (512, 512)
 	},
 	'gfpgan_1.3':
 	{
 		'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models/gfpgan_1.3.onnx',
-		'path': resolve_relative_path('../.assets/models/gfpgan_1.3.onnx'),
+		'path': resolve_relative_path('../.assets/models/GFPGANv1.3.onnx'),
 		'template': 'ffhq',
 		'size': (512, 512)
 	},
 	'gfpgan_1.4':
 	{
 		'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models/gfpgan_1.4.onnx',
-		'path': resolve_relative_path('../.assets/models/gfpgan_1.4.onnx'),
+		'path': resolve_relative_path('../.assets/models/GFPGANv1.4.onnx'),
 		'template': 'ffhq',
 		'size': (512, 512)
 	},
